@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Samuel Celestine | Étudiant BUT Informatique</title>
+  <meta name="description" content="Portfolio de Samuel Celestine, étudiant en BUT Informatique à l'IUT d'Aix-Marseille.">
+  <meta name="author" content="Samuel Celestine">
+
+  <meta property="og:title" content="Samuel Celestine | Portfolio">
+  <meta property="og:description" content="Portfolio de Samuel Celestine, étudiant en BUT Informatique.">
+  <meta property="og:image" content="https://samuel-celestine.netlify.app/assets/img/Avatar_Portfolio.jpg">
+
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" type="image/png" href="assets/img/Logo_Custom_NoFond.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#home" class="logo-text"><strong>CELESTINE SAMUEL</strong></a>
+
+    <button class="burger-menu" aria-label="Ouvrir le menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-links">
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#about">Mon Profil</a></li>
+      <li><a href="#project">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+
+      <li class="nav-mobile-only nav-divider"></li>
+      <li class="nav-mobile-only">
+        <button id="theme-toggle-mobile" class="theme-btn theme-btn-mobile" aria-label="Changer de thème">
+          <svg class="moon-icon-mobile" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          <svg class="sun-icon-mobile" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <span class="theme-label-mobile">Thème sombre / clair</span>
+        </button>
+      </li>
+      <li class="nav-mobile-only nav-mobile-socials">
+        <a href="https://github.com/samuelcelestine" target="_blank" aria-label="GitHub">
+          <img src="assets/img/Github.png" alt="GitHub" class="social-icon">
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/samuel-celestine/" target="_blank" aria-label="LinkedIn">
+          <img src="assets/img/Linkedin.png" alt="LinkedIn" class="social-icon">
+          LinkedIn
+        </a>
+      </li>
+    </ul>
+
+    <ul class="nav-socials">
+      <li>
+        <button id="theme-toggle" class="theme-btn" aria-label="Changer de thème">
+          <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        </button>
+      </li>
+      <li class="nav-desktop-only">
+        <a href="https://github.com/samuelcelestine" target="_blank" aria-label="GitHub">
+          <img src="assets/img/Github.png" alt="GitHub" class="social-icon">
+        </a>
+      </li>
+      <li class="nav-desktop-only">
+        <a href="https://www.linkedin.com/in/samuel-celestine/" target="_blank" aria-label="LinkedIn">
+          <img src="assets/img/Linkedin.png" alt="LinkedIn" class="social-icon">
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section id="home">
+    <header>
+      <p class="pre-title">Développeur Informatique</p>
+      <h1>Samuel <span>Celestine</span></h1>
+    </header>
+
+    <p class="hero-description">
+      Étudiant en <strong>3ème année de BUT Informatique</strong> à l'IUT d'Aix-Marseille.
+      Passionné par le développement full-stack et l'architecture logicielle.
+    </p>
+
+    <nav class="hero-cta">
+      <a href="#project" class="btn-primary">Voir mes projets</a>
+      <a href="#contact" class="btn-secondary">Me contacter</a>
+      <a href="assets/pdf/CV_Alternance_Samuel_Celestine.pdf" target="_blank" class="btn-cv">📄 Télécharger mon CV</a>
+    </nav>
+  </section>
+
+  <section id="about">
+
+    <h2>Qui suis-je ?</h2>
+    <section class="about-intro-split">
+      <article class="about-text">
+        <p>
+          Étudiant en <strong>3ème année de BUT Informatique</strong> à l'IUT d'Aix-Marseille (parcours <em>Réalisation d'applications : conception, développement, validation</em>), je me suis spécialisé dans le développement web full-stack, la conception logicielle et la mise en place d'architectures applicatives.
+        </p>
+        <p>
+          Ce qui me motive au quotidien, c'est de concevoir des solutions concrètes, performantes et immédiatement exploitables. En fin de cursus universitaire, je suis activement à la recherche d'une <strong>alternance d'un an</strong> pour ma 3ème année (ou d'un stage de fin d'études) afin de mettre mes compétences au service de projets ambitieux.
+        </p>
+      </article>
+
+      <figure class="about-photo">
+        <img src="assets/img/Avatar_Portfolio.jpg" alt="Photo de Samuel Celestine">
+      </figure>
+    </section>
+
+    <h2 class="timeline-title">Mon Parcours</h2>
+    <ul class="timeline">
+      <li>
+        <article class="timeline-card">
+          <time>Avril - Juin 2026</time>
+          <h3>Stage Développeur - ERP Événementiel</h3>
+          <p>Analyse et développement d'un module de gestion de ressources pour un ERP interne. Optimisation des flux de données avec HTML, CSS, PHP, JavaScript et SQL.</p>
+        </article>
+      </li>
+      <li>
+        <article class="timeline-card">
+          <time>2025</time>
+          <h3>Bénévolat - Bureau des Sports</h3>
+          <p>Organisation du gala étudiant, accueil des participants, gestion de la logistique et optimisation des espaces lors des événements.</p>
+        </article>
+      </li>
+      <li>
+        <article class="timeline-card">
+          <time>2024 - 2027</time>
+          <h3>BUT Informatique</h3>
+          <p>Apprentissage approfondi du développement web, de la programmation orientée objet, des bases de données et gestion de projets Agile.</p>
+        </article>
+      </li>
+      <li>
+        <article class="timeline-card">
+          <time>2022 - 2024</time>
+          <h3>Baccalauréat Technologique</h3>
+          <p>Lycée L'Agora (Puteaux). Acquisition des bases scientifiques, technologiques et première approche des environnements de développement.</p>
+        </article>
+      </li>
+      <li>
+        <article class="timeline-card">
+          <time>2020</time>
+          <h3>Service National Universel (SNU)</h3>
+          <p>Formation aux premiers secours, ateliers sur les enjeux de la société et activités de cohésion d'équipe.</p>
+        </article>
+      </li>
+    </ul>
+
+<h2 class="skills-title">Mes Compétences</h2>
+  <section class="cards-grid">
+    <article class="clean-card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+      <h3>Développement Web</h3>
+      <ul class="tag-list">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li><li>React</li>
+      </ul>
+    </article>
+
+    <article class="clean-card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+      <h3>Logiciel & Algo</h3>
+      <ul class="tag-list">
+        <li>Java</li><li>JavaFX</li><li>Python</li><li>C++</li>
+      </ul>
+    </article>
+
+    <article class="clean-card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+      <h3>Bases de Données</h3>
+      <ul class="tag-list">
+        <li>MySQL</li><li>PostgreSQL</li><li>Oracle SQL</li>
+      </ul>
+    </article>
+
+    <article class="clean-card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+      <h3>Outils & Système</h3>
+      <ul class="tag-list">
+        <li>Git</li><li>GitHub</li><li>Linux</li><li>Docker</li><li>Cisco CCNA</li><li>VS Code</li><li>JetBrains IDE</li>
+      </ul>
+    </article>
+
+    <article class="clean-card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+      <h3>Concepts & Architecture</h3>
+      <ul class="tag-list">
+        <li>MVC</li><li>POO</li><li>CI/CD</li><li>Clean Architecture</li>
+      </ul>
+    </article>
+
+    <article class="clean-card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+      <h3>Soft Skills</h3>
+      <ul class="tag-list">
+        <li>Méthode Agile</li><li>Travail d'équipe</li><li>Autonomie</li><li>Analyse</li>
+      </ul>
+    </article>
+
+    <article class="clean-card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+      <h3>Langues</h3>
+      <ul class="tag-list">
+        <li>Français</li><li>Anglais (B1)</li><li>Espagnol (A2+)</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="project">
+    <h2>Mes Projets</h2>
+    <div class="projects-scroll-wrapper">
+      <div class="projects-scroll-track">
+
+          <article class="clean-card project-card">
+          <time class="project-date">2026</time>
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><rect x="3" y="3" width="7" height="9"></rect><rect x="14" y="3" width="7" height="5"></rect><rect x="14" y="12" width="7" height="9"></rect><rect x="3" y="16" width="7" height="5"></rect></svg>
+          <h3>ERP Événementiel</h3>
+          <p>Conception et développement d'un ERP sur-mesure dédié à la gestion logistique, la planification d'événements et le suivi opérationnel.</p>
+          <ul class="tag-list">
+            <li>PHP</li><li>SQL</li><li>JavaScript</li><li>MVC</li><li>Bootstrap</li><li>Docker</li>
+          </ul>
+        </article>
+
+        <article class="clean-card project-card">
+          <time class="project-date">2026</time>
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+          <h3>GoGoPowerMuscu</h3>
+          <p>Application mobile de calcul d'apports nutritionnels et suivi de musculation. Interface fluide et performante.</p>
+          <ul class="tag-list">
+            <li>React</li><li>Mobile</li><li>JavaScript</li>
+          </ul>
+          <a href="https://github.com/samuelcelestine/GoGoPowerMuscu" target="_blank" class="btn-primary btn-github">Voir sur GitHub</a>
+        </article>
+
+        <article class="clean-card project-card">
+          <time class="project-date">2026</time>
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+          <h3>React TodoList</h3>
+          <p>Gestionnaire de tâches dynamique avec persistance des données.</p>
+          <ul class="tag-list">
+            <li>React</li><li>Web</li>
+          </ul>
+          <a href="https://github.com/samuelcelestine/mon-app" target="_blank" class="btn-primary btn-github">Voir sur GitHub</a>
+        </article>
+
+        <article class="clean-card project-card">
+          <time class="project-date">2026</time>
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          <h3>API Livraison</h3>
+          <p>Backend robuste avec Jakarta EE pour la gestion de commandes de repas en temps réel consommant des services JSON.</p>
+          <ul class="tag-list">
+            <li>Java</li><li>Jakarta EE</li><li>JSON</li><li>PHP</li>
+          </ul>
+          <a href="https://github.com/samuelcelestine/R401-Java" target="_blank" class="btn-primary btn-github">Voir sur GitHub</a>
+        </article>
+
+        <article class="clean-card project-card">
+          <time class="project-date">2026</time>
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"></path></svg>
+          <h3>HotHotHot</h3>
+          <p>Système de gestion météo récupérant des données de température en temps réel ("HotHotHot is back !").</p>
+          <ul class="tag-list">
+            <li>JavaScript</li><li>API HTTP</li><li>WebSocket</li>
+          </ul>
+          <a href="https://github.com/ilian-marchitto/HotHotHot" target="_blank" class="btn-primary btn-github">Voir sur GitHub</a>
+        </article>
+
+        <article class="clean-card project-card">
+          <time class="project-date">2025 - 2026</time>
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+          <h3>Plateforme Web BDE</h3>
+          <p>Conception et développement d'un site complet incluant boutique, gestion d'événements et espace membre.</p>
+          <ul class="tag-list">
+            <li>PHP</li><li>MySQL</li><li>JavaScript</li>
+          </ul>
+          <a href="https://bdelive.alwaysdata.net/" target="_blank" class="btn-primary btn-github">Voir le site web</a>
+        </article>
+
+        <article class="clean-card project-card">
+          <time class="project-date">2025</time>
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          <h3>Super Bomberman</h3>
+          <p>Développement d'un jeu complet avec gestion des collisions et programmation orientée objet.</p>
+          <ul class="tag-list">
+            <li>Java</li><li>JavaFX</li>
+          </ul>
+          <a href="https://github.com/Boubou4368/SAE2.01" target="_blank" class="btn-primary btn-github">Voir sur GitHub</a>
+        </article>
+
+        <article class="clean-card project-card">
+          <time class="project-date">2025</time>
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+          <h3>Core Database</h3>
+          <p>Création et implémentation d'une structure de base de données entière à partir de zéro, optimisée pour la performance.</p>
+          <ul class="tag-list">
+            <li>SQL</li><li>Modélisation</li><li>Optimisation</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p class="contact-intro">Un projet, une opportunité d'alternance, ou juste envie d'échanger ? N'hésite pas à me contacter, je réponds rapidement.</p>
+    <address class="contact-actions">
+      <a href="mailto:celestine.samuel.pro@gmail.com" class="btn-contact btn-contact-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        M'envoyer un email
+      </a>
+      <a href="https://www.linkedin.com/in/samuel-celestine/" target="_blank" class="btn-contact btn-contact-secondary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        LinkedIn
+      </a>
+      <span class="btn-contact btn-contact-secondary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        Aix-en-Provence / Paris
+      </span>
+    </address>
+  </section>
+
+</main>
+
+<footer>
+  <nav>
+    <p class="footer-info">
+      <strong>&copy; <span id="year"></span> CELESTINE SAMUEL</strong>
+      <span class="separator">/</span>
+      <a href="mentions.html" class="legal-link">Mentions Légales</a>
+    </p>
+    <ul class="footer-socials">
+      <li>
+        <a href="https://github.com/samuelcelestine" target="_blank" aria-label="GitHub">
+          <img src="assets/img/Github.png" alt="GitHub" class="footer-social-icon">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/samuel-celestine/" target="_blank" aria-label="LinkedIn">
+          <img src="assets/img/Linkedin.png" alt="LinkedIn" class="footer-social-icon">
+        </a>
+      </li>
+    </ul>
+  </nav>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
